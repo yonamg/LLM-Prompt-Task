@@ -1,0 +1,6 @@
+[core]
+    remote = dvc-remote
+['remote "model_store"']
+    url = C:/Program Files/Git/.dvc/tmp/model_store
+['remote "dvc-remote"']
+    url = C:/Users/Machine/AppData/Local/Temp/llm-store
