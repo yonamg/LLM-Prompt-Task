@@ -1,8 +1,8 @@
-from frontend import streamlitap
-from multipl_app import MultipleApp
-from apps import  entity_extraction as ee
-from apps import news_scoring as ns
-from apps import data_preparation as dp
+from main_interface_app import streamlit_app
+from multiple_app import MultipleApp
+import  entity_extraction as entity
+import news_scoring as news_score
+import data_preparing as data_prep
 
 app = MultipleApp()
-streamlitapp(app,ee,ns,dp)
+streamlit_app(app,entity,news_score,data_prep)
