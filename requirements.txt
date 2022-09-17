@@ -5,6 +5,6 @@ plotly==5.6.0
 scikit_learn==1.1.2
 seaborn==0.11.2
 mlflow==1.28.0
-cohere==1.26.9
+cohere==2.2.5
 Flask==1.1.2
 Werkzeug==2.0.3
