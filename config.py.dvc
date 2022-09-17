@@ -1,0 +1,4 @@
+outs:
+- md5: 23b6d03599e1145defa0adea9e6923e7
+  size: 67
+  path: config.py
