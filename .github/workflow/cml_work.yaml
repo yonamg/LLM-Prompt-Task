@@ -1,4 +1,4 @@
-name: Prompt-Engineering-Test
+name: Prompt-LLM-Test
 
 on:
   push:
