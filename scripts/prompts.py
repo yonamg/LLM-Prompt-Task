@@ -103,7 +103,7 @@ class Predict:
         test_df=processor.prepare_text(test)
         if "Analyst_Average_Score" in test_df.columns:
             test_df.drop(['Analyst_Average_Score'],axis=1,inplace=True)
-        train_df=pd.read_csv('../data/processed_news.csv').sample()
+        train_df=pd.read_csv('../data/Example_data2.csv').sample()
 
         prompt=""
         
