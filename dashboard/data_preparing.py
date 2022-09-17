@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 
-def data_preparation(df: pd.DataFrame):
+def data_preparing(df: pd.DataFrame):
 
     df = pd.read_csv('../data/Example_data2.csv')
     st.write('# Promt Design')
